@@ -1,3 +1,52 @@
+body {
+background: linear-gradient(#efeae9,30%,#f2eeed);
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 14px;
+color: #BDBAB9 ;
+}
+
+
 h1 {
-  color: salmon;
+  color: #626161;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+img {
+  width:inherit;
+  height:inherit;
+}
+
+.imgwrapper {
+  margin-left: calc((100% - 200px)/2);
+}
+
+.cityimg {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.navlink {
+  width: 100%;
+
+}
+
+@media (min-width: 600px) {
+  .imgwrapper {
+    padding: 0;
+    margin-left: calc((100% - 640px)/2);
+    margin-right: calc((100% - 640px)/2);
+
+  }
+  .cityimg {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 20px 0;
+    padding: 0;
+  }
 }
